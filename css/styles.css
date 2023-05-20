@@ -1,0 +1,158 @@
+:root {
+	--color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+	--color-white: #ffffff;
+	--color-dairy: #fcfcfc;
+}
+
+/* Base styles */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.50;
+	letter-spacing: 0.02em;
+	color: var(--color-slate);
+	background-color:var(--color-white);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.logo{
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-iris);
+}
+.logo-studio{
+	color: var(--color-grey);
+}
+.footer-logo{
+	color: var(--color-cloud);
+}
+.btn{
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.50;
+	letter-spacing: 0.04em;
+	color: var(--color-white);
+	background-color: var(--color-iris);
+	cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+	background-color: var(--color-ocean);
+}
+.title{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-navy-blue);
+}
+.undertitle{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.20;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+}
+
+/* Header styles */
+.header-link{
+	font-weight: 500;
+	color: var(--color-grey);
+}
+.header-link:hover,
+.header-link:focus {
+	color: var(--color-ocean);
+}
+.header-address{
+	font-style: normal;
+}
+.header-contact{
+	color: var(--color-slate);
+}
+.header-contact:hover,
+.header-contact:focus{
+	color: var(--color-ocean);
+}
+
+/* Contacts styles */
+.contacts{
+	background-color: var(--color-cloud);
+}
+.contacts-item{
+	background-color: var(--color-white);
+}
+
+/* Hero styles */
+.hero{
+	background-color: var(--color-navy-blue);
+}
+.hero-title{
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-white);
+}
+
+/* Footer styles */
+.footer{
+	background-color: var(--color-navy-blue);
+}
+.footer-text{
+	color: var(--color-cloud);
+}
+.footer-logo{
+	color: var(--color-iris);
+}
+.footer-logo-studio{
+	color: var(--color-cloud);
+}
+
+/* Filters Styles */
+.filters-btn{
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.50;
+	letter-spacing: 0.04em;
+	color: var(--color-iris);
+	background-color: var(--color-cloud);
+	cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus{
+	color: var(--color-white);
+	background-color: var(--color-ocean);
+}
+
+/* Project Card styles */
+.project-card {
+	background-color: var(--color-cloud);
+}
+.project-card-item {
+	background-color: var(--color-white);
+}
+.project-card-text{
+	color: var(--color-slate);
+}
